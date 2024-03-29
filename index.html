@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: rgb(206, 133, 74);
+        padding: 40px;
+        cursor: grab;
+      }
+
+      .childContainer {
+        background-color: rgb(131, 127, 255);
+        padding: 30px;
+        cursor: move;
+      }
+
+      .child {
+        background-color: rgb(0, 255, 68);
+        padding: 20px;
+        cursor: zoom-in;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="content">Hey I am Kartik</p>
+    <button class="btn">Change Content</button>
+
+    <br />
+    <hr />
+    <div class="container">
+      <section class="childContainer">
+        <div class="child">I am a Child...</div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
